@@ -1,0 +1,2 @@
+# MVCPythonDjango
+ school project
