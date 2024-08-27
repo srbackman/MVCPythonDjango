@@ -16,9 +16,9 @@
         <h5 class="card-text">Supplier: {{p.supplier.companyName}}</h5>
         <p class="card-text">packageSize: {{p.packageSize}} | unitPrice: {{p.unitPrice}}</p>
         <p class="card-text" style="color: green;">Units in stock: {{p.unitsInStock}}</p>
-        <a href"/edit-product-get/{{p.id}}/" class="btn btn-primary">Edit</a>
-        <a href"/confirm-delete-product/{{p.id}}/" class="btn btn-danger">Delete</a>
-        <a href"/products-by-supplier/{{p.supplier.id}}/" class="btn btn-secondary">{{p.supplier.companyName}}'s products</a>
+        <a href="/edit-product-get/{{p.id}}/" class="btn btn-primary">Edit</a>
+        <a href="/confirm-delete-product/{{p.id}}/" class="btn btn-danger">Delete</a>
+        <a href="/products-by-supplier/{{p.supplier.id}}/" class="btn btn-secondary">{{p.supplier.companyName}}'s products</a>
     </div>
 </div>
 
