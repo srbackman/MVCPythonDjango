@@ -105,7 +105,7 @@ DATABASES = {
 DATABASES = {
     'default': dj_database_url.config(
         default='postgresql://postgres@localhost:5432/suppliersdb',
-        conn_max=600
+        conn_max_age=600
     )
 }
 
